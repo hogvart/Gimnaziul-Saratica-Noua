@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2? family=Amita & display=swap");
+body {
+margin: 0 ;
+font-family: "Amita", cursiv;
+font-size: 10px;
+}
+
+main {
+    min-height: 100vh;
+}
+header {
+    background-color: #2a9974 ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+ navbar {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+ }
+ navbar a {
+color: #0dfff7;
+text-decoration: none;
+margin-right: 20px;
+font-size: 20px;
+ }
+ navbar a:hover {
+    color: greenyellow;
+    text-decoration: underline 1px;
+
+
+ }
+ footer {min-height: 80px;
+ background-color: #2a9974;
+ text-align: center;
+ color: white;
+ padding-top: 35px;
+ text-indent: 20px;
+}
+table {
+     border: 1px;
+     padding: 20px 20px 10px 10px;
+     color: #192e19;
+
+}
+
+table th {
+    margin-bottom: 20px;
+    text-indent: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+table td {
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+
+}
+
+li {
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style-image: linear-gradient(#2f9a2f84, #9af7108f);
+
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin-top: o;
+    margin-left: 'Amita', cursiv;
+    text-shadow: 2px 2px #98f1127b;
+    color: #1c501e;
+
+}
+
+h1 {
+    font-size: 280%;
+
+}
+
+section {
+    padding: 90px 15%;
+
+}
+
+#index {
+    background: linear-gradient(#2b045a88, #00000086), url('../images/5.jpg');
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.hamburger {
+    color: #0dfff7;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: none !important;
+
+ }
+
+ .logo {
+    height: 50px;
+
+ }
+
+ .index-info {
+    margin-top: 25vh;
+    text-align: center;
+    transition: 1s;
+
+ }
+
+
